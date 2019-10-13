@@ -1,0 +1,24 @@
+{
+  "name": "video3DJS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server  ./public -p 8088",
+    "dev": "http-server  ./public -p 8000 -c 0"
+  },
+  "author": "liyu",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "mocha": "^6.2.0"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "jsdom": "^15.1.1",
+    "mongodb": "^3.3.2",
+    "socket.io": "^2.2.0"
+  }
+}
